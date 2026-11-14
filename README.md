@@ -1,6 +1,6 @@
 # Visão computacional: nível de água em ônibus alagados
 
-Vinicius Barros, RM 97824 (FIAP, Global Solution 2026, Applied Computer Vision)
+Vinicius Oliveira de Barros, RM 97824 (FIAP, Global Solution 2026, Applied Computer Vision)
 
 Treinei um modelo (YOLOv8) que acha ônibus em rua alagada e diz até onde a água chega, em 4 níveis. No ChuvaRota ele serve para transformar uma foto da rua em um aviso ("não atravesse"), junto com a previsão de chuva.
 
