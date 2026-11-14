@@ -4,6 +4,14 @@ Vinicius Barros, RM 97824 (FIAP, Global Solution 2026, Applied Computer Vision)
 
 Treinei um modelo (YOLOv8) que acha ônibus em rua alagada e diz até onde a água chega, em 4 níveis. No ChuvaRota ele serve para transformar uma foto da rua em um aviso ("não atravesse"), junto com a previsão de chuva.
 
+## Teste rápido (para quem vai avaliar)
+O modelo treinado já está no repositório (`modelo/best.pt`), então não precisa baixar o dataset para ver funcionando:
+```
+pip install -r requirements.txt
+python detectar.py amostras/entrada_0.jpg --saida resultado
+```
+Isso cria o `resultado.jpg`, com uma caixa em volta do ônibus e o nível da água. Se preferir não instalar nada, veja o vídeo e o relatório PDF, nos links lá embaixo.
+
 ## Dados
 QIU, Yanbin (2025). [Automated urban flood level detection based on flooded bus dataset wading image using YOLOv8](https://doi.org/10.5281/zenodo.17151262). Zenodo, licença CC BY 4.0 (imagens de redes sociais anotadas no LabelImg). Usei só o `Original.zip`, sem mexer nele; as imagens de `amostras/` vêm dele. 1.008 imagens, 4 classes:
 
