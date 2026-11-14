@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+dados_brutos/
+dataset/
+runs/
+data.yaml
+*.pt
+!modelo/best.pt
